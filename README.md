@@ -1,48 +1,52 @@
-#  Bank Customer Churn Analysis – Power BI Project  
+![Churn Dashboard](Images/dashboard.png)
 
-##  Project Overview  
-This project analyzes bank customer data to uncover key factors that influence churn (customer exits).  
-It involves data cleaning, feature exploration, and an **interactive Power BI dashboard** for visualization.  
+#  Bank Customer Churn Analysis
 
----
-
-##  Project Structure  
-- **Data/** → Excel datasets (customer details, churn status, etc.)  
-- **Documentation/** → Business Requirement Document & Data Dictionary  
-- **PowerBI/** → `.pbix` file with the interactive dashboard  
-- **Screenshots/** → Dashboard images for quick preview  
+## Project Overview
+This project analyzes bank customer data (10,001 records) to uncover insights into churn behavior, customer demographics, and retention factors.  
+It involves data preprocessing in Excel, documentation via BRD, and an **interactive Power BI dashboard** for visualization.  
 
 ---
 
-##  Objectives  
-- Identify key churn indicators such as credit score, tenure, age, and activity status.  
-- Compare churn across different **geographies and demographics**.  
-- Analyze relationships between **balance, salary, products, and churn rate**.  
-- Provide actionable insights to improve **customer retention strategies**.  
+## Project Structure
+- **Data/** → Excel & CSV datasets (ActiveCustomer, Bank_Churn, CreditCard, CustomerInfo, ExitCustomer, Gender, Geography).  
+- **Documentation/** → Business Requirement Document & Data Dictionary.  
+- **Bank_Churn_Analysis.pbix** → Power BI dashboard file with interactive visualizations.  
+- **Images/** → Dashboard preview images.  
 
 ---
 
-##  Tools & Technologies  
-- **Excel** → Data cleaning and preprocessing  
-- **Power BI** → Dashboard creation & visualization  
- 
+## Objectives
+- Identify demographic and financial factors that influence churn.  
+- Compare churn across **age groups, geographies, and activity levels**.  
+- Analyze relationships between **credit score, tenure, balance, and churn rate**.  
+- Build an interactive dashboard to support churn reduction strategies.  
 
 ---
 
-##  Key Insights  
+## Tools & Technologies
+- **Excel** – Data cleaning and preprocessing.  
+- **Power BI** – Dashboard creation and visualization.  
+- **Word (BRD)** – Business requirements documentation.  
+
+---
+
+## Key Insights
 - Customers with **low credit scores** are more likely to churn.  
-- **Younger customers** tend to exit more compared to older ones.  
-- **Inactive members** have a significantly higher churn rate.  
-- Certain **geographies** show higher customer attrition.  
+- **Younger customers** show higher churn rates compared to older customers.  
+- **Inactive members** are significantly more likely to exit.  
+- Churn rates vary across different **geographies**.  
 
 ---
 
-##  Dashboard Features  
-- Churn analysis by **age, geography, gender, and credit score**.  
-- KPIs showing churn percentages, retention rates, and active vs inactive members.  
-- Filters and slicers for **interactive exploration**.  
-- Visual comparisons of churned vs retained customers.  
+## Dashboard Features
+- Churn analysis by **age, gender, geography, and credit score**.  
+- KPIs for **total customers, churned customers, and retention rates**.  
+- Filters and slicers for interactive exploration.  
+- Comparison of churned vs retained customers.  
 
 ---
+
+
 
 
